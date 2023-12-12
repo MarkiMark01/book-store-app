@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbook_store_app=self.webpackChunkbook_store_app||[]).push([[606],{9606:(s,e,o)=>{o.r(e),o.d(e,{default:()=>k});var p=o(6505),t=o(7689),a=o(3329);const k=()=>(0,p.Z)()?(0,a.jsx)(t.j3,{}):(0,a.jsx)(t.Fg,{to:"/"})}}]);
+//# sourceMappingURL=606.81766fee.chunk.js.map
