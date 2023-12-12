@@ -17,12 +17,10 @@ const UserRoutes = () => {
     <Suspense fallback={<p>Load page...</p>}>
       <Routes>
         <Route path="/" element={<Books />}></Route>
-        {/* <Route element={<PublicRoute />}>
+        <Route element={<PublicRoute />}>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Signin />} />
-        </Route> */}
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Signin />} />
+        </Route>
         <Route element={<PrivateRoute />}>
           <Route path="/books/:id" element={<BooksId />}>
             <Route path="description" element={<Description />}></Route>

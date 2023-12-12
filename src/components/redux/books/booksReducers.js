@@ -16,13 +16,13 @@ const initialState = {
   cart: [],
 };
 
-// const entities = createReducer(initialState.entities, {
-//   [fetchBooks.fulfilled]: (_, action) => action.payload,
-// });
-
 const entities = createReducer(initialState.entities, {
-  [fetchBooks.fulfilled]: (_, action) => action.payload.books,
+  [fetchBooks.fulfilled]: (_, action) => action.payload,
 });
+
+// const entities = createReducer(initialState.entities, {
+//   [fetchBooks.fulfilled]: (_, action) => action.payload.books,
+// });
 
 const isLoading = createReducer(initialState.isLoading, {
   [fetchBooks.pending]: () => true,
