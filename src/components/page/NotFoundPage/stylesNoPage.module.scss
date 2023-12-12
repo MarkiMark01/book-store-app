@@ -1,0 +1,14 @@
+@import "../../shared/styles/variables";
+
+.nopage {
+  height: 100vh;
+  color: $color-darkblue;
+
+  .nopageLink {
+    text-decoration: underline;
+    color: $color-darkblue;
+    &:hover {
+      color: #d8af69;
+    }
+  }
+}

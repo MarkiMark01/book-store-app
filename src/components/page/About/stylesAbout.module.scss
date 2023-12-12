@@ -1,0 +1,23 @@
+@import "../../shared/styles/variables";
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 20px;
+
+  .aboutText {
+    margin: 0 50px 0 50px;
+    text-align: justify;
+  }
+
+  .goHome {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: $color-darkblue;
+    &:hover {
+      color: #d8af69;
+    }
+  }
+}

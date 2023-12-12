@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
+import { useDispatch } from "react-redux";
+
+import { current } from "./components/redux/auth/auth-operations";
+import UserRoutes from "./components/page/UserRoutes";
+import Footer from "./components/page/Footer/Footer";
+import Header from "./components/page/Header/Header";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(current());
+  }, [dispatch]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ScrollToTop>
+        <Header />
+        <UserRoutes />
+        <Footer />
+      </ScrollToTop>
     </div>
   );
 }

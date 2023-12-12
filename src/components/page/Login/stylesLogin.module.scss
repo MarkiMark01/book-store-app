@@ -1,0 +1,138 @@
+@import "../../shared/styles/variables";
+@import "../../shared/styles/placeholders";
+
+.login {
+  @extend %flex-center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: $color-lightgrey;
+
+  .login__container2 {
+    margin-top: 35px;
+  }
+
+  .login__container,
+  .login__container2 {
+    @extend %flex-center;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: $color-lightblue;
+    border-radius: 15px;
+    border: 2px solid $color-gold;
+
+    .login__log {
+      text-align: start;
+      height: 40px;
+      width: 260px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 20px;
+      border: 2px solid $color-gold;
+      padding: 10px;
+      outline: none;
+      margin: 15px 0px 15px 0px;
+
+      &::placeholder {
+        color: rgba(165, 163, 163, 0.671);
+      }
+      &:focus {
+        border: 2px solid $color-darkblue;
+      }
+    }
+    .login__sign {
+      text-align: start;
+      height: 40px;
+      width: 260px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 20px;
+      border: 2px solid $color-gold;
+      padding: 10px;
+      outline: none;
+
+      &::placeholder {
+        color: rgba(165, 163, 163, 0.671);
+      }
+      &:focus {
+        border: 2px solid $color-darkblue;
+      }
+    }
+    .login__name {
+      text-align: start;
+      height: 40px;
+      width: 260px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 20px;
+      border: 2px solid $color-gold;
+      padding: 10px;
+      outline: none;
+      margin-top: 40px;
+
+      &::placeholder {
+        color: rgba(165, 163, 163, 0.671);
+      }
+      &:focus {
+        border: 2px solid $color-darkblue;
+      }
+    }
+
+    .login__title {
+      color: $color-darkblue;
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 45px;
+    }
+    .login__link {
+      text-decoration: underline;
+    }
+    .login__link:hover {
+      color: #d8af69;
+    }
+    .login__buttons {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      margin-top: 0px;
+
+      .login__btn {
+        @extend %flex-center;
+        width: 77px;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 20px;
+        background-color: $color-darkblue;
+        color: $color-gold;
+        border: 2px solid $color-gold;
+        cursor: pointer;
+
+        &:hover {
+          background: $color-linear-gradient;
+          color: $color-darkblue;
+          transition: 0.25s;
+          border: 1.5px solid $color-darkblue;
+        }
+      }
+    }
+
+    .login__text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .login__status {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+}
