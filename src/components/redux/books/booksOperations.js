@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { getNewContacts, fetchBooksData } from "../../shared/api";
+import { getNewContacts } from "../../shared/api";
 import { setSpecificBook } from "./booksActions";
 import axios from "axios";
 
@@ -12,42 +12,6 @@ export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
     throw error;
   }
 });
-
-// export const fetchSpecificBooks = createAsyncThunk(
-//   'books/fetchSpecificBooks',
-//   async (id, { dispatch, rejectWithValue }) => {
-//     try {
-//       const data = await fetchBooksData();
-//       if (id) {
-//         const selectedBook = data.books.find((book) => book.id === parseInt(id));
-//         dispatch(setSpecificBook(selectedBook));
-//         return selectedBook;
-//       } else {
-//         dispatch(setSpecificBook(null));
-//         return null;
-//       }
-//     } catch (error) {
-//       console.error("Error fetching specific book:", error);
-//       return rejectWithValue(error.message);
-//     }
-//   }
-// );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const instance = axios.create({
@@ -75,3 +39,38 @@ export const fetchSpecificBooks = createAsyncThunk(
     }
   }
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const fetchSpecificBooks = createAsyncThunk(
+//   'books/fetchSpecificBooks',
+//   async (id, { dispatch, rejectWithValue }) => {
+//     try {
+//       const data = await fetchBooksData();
+//       if (id) {
+//         const selectedBook = data.books.find((book) => book.id === parseInt(id));
+//         dispatch(setSpecificBook(selectedBook));
+//         return selectedBook;
+//       } else {
+//         dispatch(setSpecificBook(null));
+//         return null;
+//       }
+//     } catch (error) {
+//       console.error("Error fetching specific book:", error);
+//       return rejectWithValue(error.message);
+//     }
+//   }
+// );

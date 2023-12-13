@@ -4,7 +4,7 @@ import styles from "./stylesNoPage.module.scss";
 const NotFoundPage = () => {
   return (
     <div className={styles.nopage}>
-      <h2>“Oops, something went wrong... Error 404” 🕵️</h2>
+      <p>“Oops, something went wrong... Error 404” 🕵️</p>
       <section className={styles.nopageLink}>
         <NavLink to="/">Go to books</NavLink>
       </section>

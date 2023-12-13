@@ -9,6 +9,15 @@
   font-weight: 500;
   background-color: $color-darkblue;
   color: $color-white;
+
+  @media (max-width: 450px) {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  @media (max-width: 358px) {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }
 .foot {
   width: 100%;

@@ -21,6 +21,9 @@
     border-radius: 15px;
     border: 2px solid $color-gold;
 
+    @media (max-width: 650px) {
+    }
+
     .login__log {
       text-align: start;
       height: 40px;
