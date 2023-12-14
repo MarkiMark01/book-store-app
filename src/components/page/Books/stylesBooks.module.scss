@@ -20,10 +20,15 @@
       width: 1220px;
       min-height: 100vh;
       padding-left: 0px;
-      /* background-color: #e1eff9; */
       background-color: $color-white;
       margin-top: 0px;
       margin-bottom: 0px;
+
+      @media (max-width: 1200px) {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
 
       .books__box {
         @extend %flex-sb;
@@ -116,8 +121,10 @@
     height: 60px;
     background-color: $color-white;
 
-    @media (max-width: 480px) {
-      width: 90%;
+    @media (max-width: 1200px) {
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
     }
 
     .books__filterText {
