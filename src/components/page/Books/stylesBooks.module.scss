@@ -6,7 +6,6 @@
   flex-direction: column;
   width: 100%;
   background-color: $color-lightblue;
-  /* min-height: 100vh; */
 
   .books__mainContainer {
     @extend %flex-center2;
@@ -44,6 +43,24 @@
         cursor: pointer;
         object-fit: contain;
 
+        @media (max-width: 1110px) {
+          width: 300px;
+          height: 450px;
+        }
+
+        @media (max-width: 930px) {
+          width: 280px;
+          height: 430px;
+        }
+        @media (max-width: 630px) {
+          width: 260px;
+          height: 410px;
+        }
+        @media (max-width: 570px) {
+          width: 250px;
+          height: 400px;
+        }
+
         &:hover {
           transform: scale(1.03);
         }
@@ -54,19 +71,41 @@
           margin-top: 5px;
           border-radius: 15px;
           border: 1px solid $color-darkblue;
-          /* border: 1px solid #c9c9c9; */
           object-fit: contain;
           background-color: $color-white;
+
+          @media (max-width: 1110px) {
+            width: 89%;
+            height: 73%;
+          }
+          @media (max-width: 630px) {
+            width: 88%;
+            height: 72%;
+          }
+          @media (max-width: 570px) {
+            width: 87%;
+            height: 71%;
+          }
         }
         .books__title {
           @extend %flex-start;
           margin: 0px;
           margin-top: 15px;
           width: 90%;
-          height: 30px;
+          height: 25px;
           font-size: 18px;
           font-weight: 600;
           color: $color-darkblue;
+
+          @media (max-width: 1110px) {
+            font-size: 17px;
+          }
+          @media (max-width: 930px) {
+            font-size: 16px;
+          }
+          @media (max-width: 630px) {
+            font-size: 16px;
+          }
         }
         .books__author {
           margin: 0px;
@@ -76,18 +115,33 @@
           font-weight: 600;
           color: $color-darkblue;
           margin-top: 10px;
+
+          @media (max-width: 1110px) {
+            font-size: 15px;
+          }
+          @media (max-width: 930px) {
+            font-size: 14px;
+          }
         }
         .books__price {
           margin: 10px 5px 0px 0px;
           font-size: 19px;
           font-weight: 550;
           color: $color-darkblue;
+
+          @media (max-width: 1110px) {
+            font-size: 18px;
+          }
         }
         .book__purchase {
           @extend %flex-sb2;
           width: 90%;
           height: 35px;
           margin-bottom: 15px;
+
+          @media (max-width: 930px) {
+            margin-bottom: 10px;
+          }
         }
         .books__button {
           @extend %flex-center;
@@ -104,6 +158,25 @@
           cursor: pointer;
           margin-bottom: 15px;
           transform: scale(1);
+
+          @media (max-width: 1110px) {
+            width: 73px;
+            height: 33px;
+          }
+          @media (max-width: 930px) {
+            width: 71px;
+            height: 31px;
+            margin-bottom: 0px;
+            margin-top: 3px;
+          }
+          @media (max-width: 630px) {
+            width: 70px;
+            height: 30px;
+          }
+          @media (max-width: 570px) {
+            width: 68px;
+            height: 30px;
+          }
 
           &:hover {
             background: $color-darkblue;
@@ -126,6 +199,9 @@
       padding-left: 10px;
       padding-right: 10px;
     }
+    @media (max-width: 570px) {
+      width: 100%;
+    }
 
     .books__filterText {
       display: block;
@@ -138,6 +214,16 @@
       font-size: 16px;
       background-color: $color-grey;
       margin-right: 30px;
+
+      @media (max-width: 570px) {
+        width: 360px;
+      }
+      @media (max-width: 400px) {
+        width: 100%;
+      }
+      @media (max-width: 315px) {
+        font-size: 13px;
+      }
 
       &:hover {
         transform: scale(1.03);
@@ -154,6 +240,14 @@
       border: 1px solid $color-darkblue;
       background-color: $color-grey;
       transition: transform linear 0.1s;
+
+      @media (max-width: 400px) {
+        width: 100px;
+      }
+
+      @media (max-width: 315px) {
+        font-size: 13px;
+      }
 
       &:hover {
         transform: scale(1.01);
