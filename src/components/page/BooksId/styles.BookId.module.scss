@@ -14,6 +14,10 @@
     height: 75px;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
   }
   .bookId__buttonBack {
     @extend %flex-center;
@@ -29,6 +33,10 @@
     cursor: pointer;
     margin-left: 25px;
 
+    @media (max-width: 899px) {
+      margin-left: 29px;
+    }
+
     &:hover {
       transform: scale(1.02);
       background: $color-darkblue;
@@ -40,8 +48,16 @@
   .bookId__box {
     @extend %flex-center2;
     width: 1220px;
-    /* height: 80vh; */
+
     background-color: $color-white;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+    @media (max-width: 899px) {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
 
     .books__idImg {
       width: 340px;
@@ -52,6 +68,18 @@
       border: 1px solid $color-lightblue;
       box-shadow: 0px 5px 20px -8px $color-blue;
       margin-bottom: 10px;
+
+      @media (max-width: 999px) {
+        width: 320px;
+        height: 430px;
+      }
+      @media (max-width: 999px) {
+        width: 300px;
+        height: 430px;
+      }
+      @media (max-width: 882px) {
+        margin-right: 5px;
+      }
     }
     .bookId__info {
       display: flex;
@@ -64,6 +92,13 @@
       padding: 0 20px 0 10px;
       margin: 0 5px 0 5px;
       box-shadow: 0px 20px 30px -30px $color-blue;
+
+      @media (max-width: 899px) {
+        margin-right: 20px;
+      }
+      @media (max-width: 882px) {
+        width: 450px;
+      }
     }
     .bookId_purchase {
       @extend %flex-center;
@@ -77,11 +112,23 @@
       color: $color-darkblue;
       margin-right: 20px;
       box-shadow: 0px 5px 20px -8px $color-blue;
+
+      @media (max-width: 899px) {
+        margin-top: 10px;
+        width: 95%;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
     }
     .bookId__title {
       font-size: 23px;
       font-weight: 700;
       margin-bottom: 20px;
+
+      @media (max-width: 999px) {
+        font-size: 22px;
+      }
     }
     .bookId__author {
       font-size: 17px;
@@ -106,6 +153,10 @@
       line-height: 1.2;
       margin-top: 5px;
       margin-bottom: 20px;
+
+      @media (max-width: 999px) {
+        font-size: 17px;
+      }
     }
     .bookId__description {
       margin: 0px;
@@ -122,10 +173,21 @@
       color: $color-darkblue;
       font-weight: 450;
       font-size: 20px;
+
+      @media (max-width: 999px) {
+        font-size: 19px;
+      }
+      @media (max-width: 899px) {
+        font-size: 22px;
+      }
     }
     .booksId__price2 {
       font-size: 22px;
       font-weight: 700;
+
+      @media (max-width: 999px) {
+        font-size: 21px;
+      }
     }
     .booksId__quantity {
       @extend %flex-sb;
@@ -134,6 +196,14 @@
       margin-top: 10px;
       font-weight: 450;
       font-size: 20px;
+
+      @media (max-width: 999px) {
+        font-size: 19px;
+      }
+
+      @media (max-width: 899px) {
+        font-size: 22px;
+      }
     }
     .booksId__quantity > input {
       text-align: center;
@@ -145,6 +215,11 @@
       outline: none;
       font-size: 20px;
       font-weight: 700;
+
+      @media (max-width: 999px) {
+        font-size: 19px;
+        width: 45px;
+      }
     }
     .booksId__total {
       @extend %flex-sb;
@@ -153,10 +228,21 @@
       font-weight: 450;
       font-size: 20px;
       margin-top: 10px;
+
+      @media (max-width: 999px) {
+        font-size: 19px;
+      }
+      @media (max-width: 899px) {
+        font-size: 22px;
+      }
     }
     .booksId__total2 {
       font-size: 22px;
       font-weight: 700;
+
+      @media (max-width: 999px) {
+        font-size: 21px;
+      }
     }
     .bookId__btn {
       @extend %flex-center;
@@ -175,6 +261,12 @@
       color: $color-darkblue;
       transition: 0.1s;
       cursor: pointer;
+
+      @media (max-width: 999px) {
+        width: 87px;
+        height: 38px;
+        font-weight: 700;
+      }
 
       &:hover {
         transform: scale(1.02);
@@ -201,6 +293,13 @@
     background-color: $color-white;
     color: $color-darkblue;
     padding-bottom: 15%;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+    @media (max-width: 826px) {
+      height: 100%;
+    }
 
     .bookId__fullDescButton {
       @extend %flex-center;
