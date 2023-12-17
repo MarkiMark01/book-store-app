@@ -31,9 +31,7 @@ const BooksIdComponents = ({
               </button>
             </section>
             <section className={styles.bookId__box}>
-              <div
-              // className={styles.bookIdImg}
-              >
+              <div>
                 <BooksImageId bookData={specificBook} />
               </div>
               <div className={styles.bookId__info}>

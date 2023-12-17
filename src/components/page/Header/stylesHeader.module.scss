@@ -14,7 +14,7 @@
 
   .header2 {
     @extend %flex-sb;
-    width: 90%;
+    width: 96%;
     height: 40px;
     background-color: $color-darkblue;
     text-decoration: none;
@@ -22,7 +22,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    margin-right: 10px;
+    margin-right: 5px;
 
     .header__burger {
       display: none;
@@ -155,6 +155,7 @@
       }
       @media (max-width: 375px) {
         font-size: 13px;
+        margin-right: 5px;
       }
       @media (max-width: 358px) {
         font-size: 12px;
@@ -191,16 +192,13 @@
         font-weight: 600;
       }
       @media (max-width: 375px) {
-        width: 48px;
-        height: 25px;
-        font-size: 8px;
-        font-weight: 600;
-      }
-      @media (max-width: 358px) {
         width: 46px;
         height: 23px;
-        font-size: 8px;
-        font-weight: 600;
+        font-size: 7px;
+        font-weight: 800;
+      }
+      @media (max-width: 358px) {
+        font-size: 6px;
       }
 
       &:hover {
@@ -232,6 +230,7 @@
       @media (max-width: 375px) {
         width: 24px;
         height: 24px;
+        margin-right: 5px;
       }
       @media (max-width: 358px) {
         width: 23px;
@@ -252,12 +251,13 @@
 
   .headerRegister2 {
     @extend %flex-sb;
-    width: 90%;
+    width: 96%;
     height: 40px;
     background-color: $color-darkblue;
     position: sticky;
     top: 0;
     z-index: 1;
+    margin-right: 5px;
   }
   .navRegister {
     @extend %flex-sb;

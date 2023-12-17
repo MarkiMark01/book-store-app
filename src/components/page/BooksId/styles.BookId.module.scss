@@ -36,6 +36,12 @@
     @media (max-width: 899px) {
       margin-left: 29px;
     }
+    @media (max-width: 686px) {
+      width: 65px;
+      height: 30px;
+      font-size: 11px;
+      font-weight: 900;
+    }
 
     &:hover {
       transform: scale(1.02);
@@ -80,6 +86,17 @@
       @media (max-width: 882px) {
         margin-right: 5px;
       }
+      @media (max-width: 816px) {
+        width: 270px;
+        height: 410px;
+      }
+      @media (max-width: 736px) {
+        width: 250px;
+        height: 390px;
+      }
+      @media (max-width: 686px) {
+        margin-right: 20px;
+      }
     }
     .bookId__info {
       display: flex;
@@ -95,9 +112,21 @@
 
       @media (max-width: 899px) {
         margin-right: 20px;
+        margin-left: 20px;
       }
       @media (max-width: 882px) {
         width: 450px;
+      }
+      @media (max-width: 816px) {
+        width: 400px;
+        height: 350px;
+      }
+      @media (max-width: 736px) {
+        width: 370px;
+        padding-right: 10px;
+      }
+      @media (max-width: 686px) {
+        box-shadow: 0px 5px 20px -8px $color-blue;
       }
     }
     .bookId_purchase {
@@ -120,6 +149,19 @@
         margin-left: 20px;
         margin-bottom: 20px;
       }
+      @media (max-width: 736px) {
+        width: 100%;
+        margin-right: 30px;
+        margin-left: 30px;
+        height: 210px;
+      }
+      @media (max-width: 750px) {
+        margin-top: 20px;
+      }
+      @media (max-width: 429px) {
+        margin-right: 20px;
+        margin-left: 20px;
+      }
     }
     .bookId__title {
       font-size: 23px;
@@ -129,23 +171,38 @@
       @media (max-width: 999px) {
         font-size: 22px;
       }
+      @media (max-width: 816px) {
+        font-size: 20px;
+      }
     }
     .bookId__author {
       font-size: 17px;
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 20px;
+
+      @media (max-width: 816px) {
+        font-size: 16px;
+      }
     }
     .bookId__level {
       font-size: 17px;
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 20px;
+
+      @media (max-width: 816px) {
+        font-size: 16px;
+      }
     }
     .bookId__sd {
       margin: 0;
       font-size: 18px;
       font-weight: 700;
+
+      @media (max-width: 816px) {
+        font-size: 16px;
+      }
     }
     .bookId__sDescription {
       font-size: 18px;
@@ -157,6 +214,9 @@
       @media (max-width: 999px) {
         font-size: 17px;
       }
+      @media (max-width: 816px) {
+        font-size: 16px;
+      }
     }
     .bookId__description {
       margin: 0px;
@@ -164,6 +224,10 @@
       font-weight: 700;
       text-decoration: underline;
       color: $color-blue;
+
+      @media (max-width: 816px) {
+        font-size: 17px;
+      }
     }
 
     .booksId__price {
@@ -180,12 +244,18 @@
       @media (max-width: 899px) {
         font-size: 22px;
       }
+      @media (max-width: 816px) {
+        font-size: 21px;
+      }
     }
     .booksId__price2 {
       font-size: 22px;
       font-weight: 700;
 
       @media (max-width: 999px) {
+        font-size: 21px;
+      }
+      @media (max-width: 816px) {
         font-size: 21px;
       }
     }
@@ -204,6 +274,9 @@
       @media (max-width: 899px) {
         font-size: 22px;
       }
+      @media (max-width: 816px) {
+        font-size: 21px;
+      }
     }
     .booksId__quantity > input {
       text-align: center;
@@ -215,11 +288,6 @@
       outline: none;
       font-size: 20px;
       font-weight: 700;
-
-      @media (max-width: 999px) {
-        font-size: 19px;
-        width: 45px;
-      }
     }
     .booksId__total {
       @extend %flex-sb;
@@ -235,6 +303,9 @@
       @media (max-width: 899px) {
         font-size: 22px;
       }
+      @media (max-width: 816px) {
+        font-size: 21px;
+      }
     }
     .booksId__total2 {
       font-size: 22px;
@@ -243,12 +314,18 @@
       @media (max-width: 999px) {
         font-size: 21px;
       }
+      @media (max-width: 736px) {
+      }
     }
     .bookId__btn {
       @extend %flex-center;
       width: 90%;
       height: 45px;
       margin-top: 20px;
+
+      @media (max-width: 736px) {
+        margin-top: 0px;
+      }
     }
     .bookId__button {
       width: 90px;
@@ -265,6 +342,11 @@
       @media (max-width: 999px) {
         width: 87px;
         height: 38px;
+        font-weight: 700;
+      }
+      @media (max-width: 736px) {
+        width: 85px;
+        height: 35px;
         font-weight: 700;
       }
 

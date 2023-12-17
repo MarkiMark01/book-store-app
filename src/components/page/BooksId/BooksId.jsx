@@ -26,7 +26,13 @@ const BookId = () => {
 
   const handleQuantity = (e) => {
     const count = e.target.value;
-    const newQuantity = count <= 0 ? 1 : count > 42 ? 42 : count;
+    let newQuantity;
+    if (count === "") {
+      newQuantity = "";
+    } else {
+      newQuantity = isNaN(count) ? 1 : Math.max(1, Math.floor(Number(count)));
+    }
+
     setQuantity(newQuantity);
     calculateTotalPrice(newQuantity, specificBook.price);
   };
