@@ -69,10 +69,10 @@ const CartComponents = ({
               <li key={index} className={styles.cart__block}>
                 <div className={styles.cart__titles}>
                   <div>Title</div>
-                  <div>
+                  <div className={styles.cart__titles2}>
                     <span className={styles.cart__pr}>Price</span>
                     <span className={styles.cart__qua}>Quantity</span>
-                    <span>Total</span>
+                    <span className={styles.cart__tot}>Total</span>
                   </div>
                 </div>
                 <div className={styles.cart__value}>
@@ -81,9 +81,7 @@ const CartComponents = ({
                     src={bin}
                     alt="Remove"
                     onClick={() => handleRemoveFromCart(item)}
-                    width={20}
-                    height={20}
-                    style={{ cursor: "pointer" }}
+                    className={styles.img}
                   />
                   <span className={styles.cart__pri}>${item.price}</span>
                   <span className={styles.cart__quant}>{item.quantity}</span>
