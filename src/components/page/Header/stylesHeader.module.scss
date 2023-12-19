@@ -222,12 +222,12 @@
       @media (max-width: 375px) {
         width: 46px;
         height: 23px;
-        font-size: 7px;
+        font-size: 6px;
         font-weight: 800;
       }
-      @media (max-width: 358px) {
-        font-size: 6px;
-      }
+      // @media (max-width: 358px) {
+      //   font-size: 6px;
+      // }
 
       &:hover {
         background: $color-linear-gradient;
