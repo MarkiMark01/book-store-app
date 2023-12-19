@@ -242,9 +242,10 @@
           font-size: 13px;
         }
         @media (max-width: 375px) {
-          width: 70px;
-          height: 31px;
           font-size: 12px;
+        }
+        @media (max-width: 330px) {
+          font-size: 11px;
         }
 
         &:hover {

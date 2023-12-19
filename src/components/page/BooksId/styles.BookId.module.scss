@@ -45,6 +45,9 @@
     @media (max-width: 390px) {
       font-size: 10px;
     }
+    @media (max-width: 330px) {
+      font-weight: 700;
+    }
 
     &:hover {
       transform: scale(1.02);
@@ -357,6 +360,9 @@
       }
       @media (max-width: 390px) {
         font-size: 11px;
+      }
+      @media (max-width: 330px) {
+        font-weight: 700;
       }
 
       &:hover {
