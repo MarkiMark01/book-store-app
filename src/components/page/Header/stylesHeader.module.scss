@@ -161,12 +161,6 @@
     @media (max-width: 450px) {
       width: 150px;
     }
-    @media (max-width: 375px) {
-      width: 135px;
-    }
-    @media (max-width: 358px) {
-      width: 125px;
-    }
 
     .logout__name {
       font-size: 18px;
@@ -187,6 +181,7 @@
       }
       @media (max-width: 358px) {
         font-size: 12px;
+        margin-right: 3px;
       }
     }
     .logout__btn {
@@ -214,16 +209,10 @@
         font-weight: 500;
       }
       @media (max-width: 450px) {
-        width: 51px;
+        width: 55px;
         height: 25px;
         font-size: 10px;
         font-weight: 600;
-      }
-      @media (max-width: 414px) {
-        width: 46px;
-        height: 23px;
-        font-size: 8px;
-        font-weight: 700;
       }
 
       &:hover {
@@ -260,6 +249,7 @@
       @media (max-width: 358px) {
         width: 23px;
         height: 23px;
+        margin-right: 3px;
       }
     }
   }
