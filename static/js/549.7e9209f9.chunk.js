@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkbook_store_app=self.webpackChunkbook_store_app||[]).push([[549],{4549:(s,e,o)=>{o.r(e),o.d(e,{default:()=>p});var n=o(1087);const a="stylesNoPage_nopage__nnpRB",r="stylesNoPage_nopageLink__OhpCM";var t=o(3329);const p=()=>(0,t.jsxs)("div",{className:a,children:[(0,t.jsx)("p",{children:"\u201cOops, something went wrong... Error 404\u201d \ud83d\udd75\ufe0f"}),(0,t.jsx)("section",{className:r,children:(0,t.jsx)(n.OL,{to:"/",children:"Go to books"})})]})}}]);
-//# sourceMappingURL=549.7e9209f9.chunk.js.map
