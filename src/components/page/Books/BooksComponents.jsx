@@ -1,5 +1,6 @@
 import React from "react";
 import BooksImage from "./BooksImage";
+import { Loader } from "../../shared/Loader";
 import styles from "./stylesBooks.module.scss";
 
 const BooksComponents = ({
@@ -37,7 +38,7 @@ const BooksComponents = ({
         </section>
         <section className={styles.books__mainContainer}>
           {isLoading ? (
-            <p style={{ fontSize: "20px" }}>Loading...</p>
+            <Loader />
           ) : error ? (
             <p style={{ fontSize: "20px" }}>Error: {error}</p>
           ) : (

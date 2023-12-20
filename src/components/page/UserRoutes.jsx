@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import React, { Suspense, lazy } from "react";
+import { Loader } from "../shared/Loader";
 
 const Books = lazy(() => import("./Books/Books"));
 const Login = lazy(() => import("./Login/Login"));
@@ -14,7 +15,7 @@ const About = lazy(() => import("./About/About"));
 
 const UserRoutes = () => {
   return (
-    <Suspense fallback={<p>Load page...</p>}>
+    <Suspense fallback={<Loader />}>
       <Routes>
         <Route path="/" element={<Books />}></Route>
         <Route element={<PublicRoute />}>
