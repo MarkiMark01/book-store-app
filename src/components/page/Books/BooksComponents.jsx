@@ -58,7 +58,7 @@ const BooksComponents = ({
                             handleView(book.id);
                             if (!isLogin) {
                               alert(
-                                "Please, enter your login and password or sign up, please :)"
+                                "Enter your login and password or sign up, please :)"
                               );
                             }
                           }}

@@ -18,6 +18,11 @@ const Signin = () => {
 
   const onRegister = (e) => {
     e.preventDefault();
+
+    // if (email.trim() === "" || password.trim() === "" || name.trim() === "") {
+    //   alert("Enter your login and password or sign up, please :)");
+    //   return;
+    // }
     const data = { name, email, password };
     dispatch(signup(data));
     setName("");
