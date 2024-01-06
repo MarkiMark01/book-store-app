@@ -10,11 +10,10 @@ const BooksIdComponents = ({
   handlePurchase,
   id,
 }) => {
+  const navigate = useNavigate();
   const location = useLocation();
   const from = location.state?.from || "/";
   const goBack = () => navigate(from);
-
-  const navigate = useNavigate();
 
   return (
     <main>

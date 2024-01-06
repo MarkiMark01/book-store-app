@@ -22,13 +22,15 @@ const Description = () => {
           <section>
             <p>{book.description}</p>
           </section>
-          <button
-            type="button"
-            onClick={() => navigate(`/books/${id}/`)}
-            className={styles.bookId__fullDescButton}
-          >
-            Close
-          </button>
+          <section>
+            <button
+              type="button"
+              onClick={() => navigate(`/books/${id}/`)}
+              className={styles.bookId__fullDescButton}
+            >
+              Close
+            </button>
+          </section>
         </>
       )}
     </main>
