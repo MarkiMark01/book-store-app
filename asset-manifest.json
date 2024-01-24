@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/book-store-app/static/css/main.7c0e5930.css",
-    "main.js": "/book-store-app/static/js/main.017b2693.js",
+    "main.js": "/book-store-app/static/js/main.68ea326f.js",
     "static/css/945.cf44ade0.chunk.css": "/book-store-app/static/css/945.cf44ade0.chunk.css",
     "static/js/945.6d448217.chunk.js": "/book-store-app/static/js/945.6d448217.chunk.js",
-    "static/css/580.52a82b87.chunk.css": "/book-store-app/static/css/580.52a82b87.chunk.css",
+    "static/css/580.527ef213.chunk.css": "/book-store-app/static/css/580.527ef213.chunk.css",
     "static/js/580.05bcb704.chunk.js": "/book-store-app/static/js/580.05bcb704.chunk.js",
-    "static/css/262.52a82b87.chunk.css": "/book-store-app/static/css/262.52a82b87.chunk.css",
+    "static/css/262.527ef213.chunk.css": "/book-store-app/static/css/262.527ef213.chunk.css",
     "static/js/262.33bef6dc.chunk.js": "/book-store-app/static/js/262.33bef6dc.chunk.js",
     "static/js/171.63dc45ef.chunk.js": "/book-store-app/static/js/171.63dc45ef.chunk.js",
     "static/js/606.81766fee.chunk.js": "/book-store-app/static/js/606.81766fee.chunk.js",
@@ -47,12 +47,12 @@
     "static/media/cart.svg": "/book-store-app/static/media/cart.5a1c3c755c07e59db7d65be6bc8d8bfb.svg",
     "index.html": "/book-store-app/index.html",
     "main.7c0e5930.css.map": "/book-store-app/static/css/main.7c0e5930.css.map",
-    "main.017b2693.js.map": "/book-store-app/static/js/main.017b2693.js.map",
+    "main.68ea326f.js.map": "/book-store-app/static/js/main.68ea326f.js.map",
     "945.cf44ade0.chunk.css.map": "/book-store-app/static/css/945.cf44ade0.chunk.css.map",
     "945.6d448217.chunk.js.map": "/book-store-app/static/js/945.6d448217.chunk.js.map",
-    "580.52a82b87.chunk.css.map": "/book-store-app/static/css/580.52a82b87.chunk.css.map",
+    "580.527ef213.chunk.css.map": "/book-store-app/static/css/580.527ef213.chunk.css.map",
     "580.05bcb704.chunk.js.map": "/book-store-app/static/js/580.05bcb704.chunk.js.map",
-    "262.52a82b87.chunk.css.map": "/book-store-app/static/css/262.52a82b87.chunk.css.map",
+    "262.527ef213.chunk.css.map": "/book-store-app/static/css/262.527ef213.chunk.css.map",
     "262.33bef6dc.chunk.js.map": "/book-store-app/static/js/262.33bef6dc.chunk.js.map",
     "171.63dc45ef.chunk.js.map": "/book-store-app/static/js/171.63dc45ef.chunk.js.map",
     "606.81766fee.chunk.js.map": "/book-store-app/static/js/606.81766fee.chunk.js.map",
@@ -69,6 +69,6 @@
   },
   "entrypoints": [
     "static/css/main.7c0e5930.css",
-    "static/js/main.017b2693.js"
+    "static/js/main.68ea326f.js"
   ]
 }
