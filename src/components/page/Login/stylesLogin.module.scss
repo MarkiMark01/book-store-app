@@ -156,10 +156,11 @@
 
     .login__title {
       color: $color-darkblue;
-      font-size: 30px;
+      font-size: 32px;
       font-weight: 700;
       margin-top: 20px;
       margin-bottom: 5px;
+      font-family: "Salsa";
 
       @media (max-width: 650px) {
         font-size: 28px;
@@ -177,6 +178,8 @@
     p {
       margin-top: 5px;
       margin-bottom: 45px;
+      font-family: "Salsa";
+      padding: 0 10px 0 10px;
 
       @media (max-width: 650px) {
         font-size: 14px;
@@ -192,6 +195,7 @@
     }
     .login__link {
       text-decoration: underline;
+      font-family: " Salsa";
 
       @media (max-width: 650px) {
         font-size: 14px;
@@ -274,6 +278,7 @@
     color: red;
     font-size: 18px;
     margin-bottom: 0px;
+    font-family: " Salsa";
 
     @media (max-width: 450px) {
       font-size: 16px;
